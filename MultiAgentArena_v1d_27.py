@@ -7,7 +7,7 @@ from ray.rllib.env.multi_agent_env import MultiAgentEnv
 from PIL import Image, ImageDraw, ImageFont
 
 
-class MultiAgentArena_v1d_5(MultiAgentEnv):
+class MultiAgentArena_v1d_27(MultiAgentEnv):
     def __init__(self, config=None):
         config = config or {}
         # Dimensions of the grid.
