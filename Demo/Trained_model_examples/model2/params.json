@@ -1,0 +1,45 @@
+{
+  "_fake_gpus": false,
+  "callbacks": "<class 'callbacks_v1j.MyCallbacks'>",
+  "clip_param": 0.3,
+  "env": "<class 'MultiAgentArena_v1d_5.MultiAgentArena_v1d_5'>",
+  "env_config": {
+    "config": {
+      "height": 10,
+      "ts": 100,
+      "width": 10
+    }
+  },
+  "framework": "torch",
+  "grad_clip": null,
+  "kl_coeff": 0.2,
+  "model": {
+    "custom_model": "rnn_noFC",
+    "custom_model_config": {
+      "fc_size": 200,
+      "l2_lambda": 3.0,
+      "l2_lambda_inp": 0.0,
+      "rnn_hidden_size": 256
+    },
+    "max_seq_len": 20
+  },
+  "multiagent": {
+    "policies": {
+      "policy1": [
+        "<class 'ray.rllib.algorithms.ppo.ppo_torch_policy.PPOTorchPolicy'>",
+        "Box(0, 1, (200, 1), int64)",
+        "Discrete(4)",
+        {}
+      ],
+      "policy2": [
+        "<class 'ray.rllib.algorithms.ppo.ppo_torch_policy.PPOTorchPolicy'>",
+        "Box(0, 1, (200, 1), int64)",
+        "Discrete(4)",
+        {}
+      ]
+    },
+    "policy_mapping_fn": "<function policy_mapping_fn at 0x7f2534fb6790>"
+  },
+  "num_gpus": 1,
+  "num_workers": 7
+}
