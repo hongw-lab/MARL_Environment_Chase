@@ -16,6 +16,7 @@ Code to train and evaluate the MARL environment
 
    - Arena:
      - Social: MultiAgentArena_v1d_5.py
+     - Mutual Interaction: MultiAgentArena_v1d_27.py
      - Non-social : MultiAgentArena_v1d_11.py
    - Callback: callback_v1j.py to track various behavioral metrics
    - Neural network: simple_rnn_v2_3_2.py as a simple implementation of vanilla RNN
@@ -27,10 +28,12 @@ Code to train and evaluate the MARL environment
    - Arena ():
      - Evaluating in playoffs:
        - Social: MultiAgentArena_v1d_5.py
+       - Mutual Interaction: MultiAgentArena_v1d_27.py
        - Non-social:
          - MultiAgentArena_v1d_11.py
          - MultiAgentArena_v1d_11_2.py: Partial vision of Partner
          - MultiAgentArena_v1d_11_3.py: Full vision of Partner
      - Evaluating against standard agent (that randomly samples action from a uniform distribution)
        - Social: MultiAgentArena_v1d_5_RandA1.py/MultiAgentArena_v1d_5_RandA2.py
+       - Mutual Interaction: MultiAgentArena_v1d_27_RandA1.py/MultiAgentArena_v1d_27_RandA2.py
        - Non-social: MultiAgentArena_v1d_11_RandA1.py/MultiAgentArena_v1d_11_RandA2.py
