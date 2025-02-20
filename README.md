@@ -5,7 +5,7 @@ Code to train and evaluate the MARL environment
 0. Verified Operational System: 
 - Windows 10
 - Linux: Ubuntu 20/22
-- Note: Agents were trained using ray==2.2, which has known compatibility [issues](https://docs.ray.io/en/releases-2.2.0/ray-overview/installation.html) on macOS and Apple Silicon (M1/M2 chips).
+- Note: Agents were trained using ray==2.2, which has compatibility issues on macOS, particularly on Apple Silicon (M1/M2 chips). For more details and potential workarounds, please visit [Ray documentation](https://docs.ray.io/en/releases-2.2.0/ray-overview/installation.html#m1-mac-apple-silicon-support)
 
 1. Create the environment and install dependencies:
 - install Anaconda/Miniconda
